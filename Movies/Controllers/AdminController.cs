@@ -61,6 +61,7 @@ namespace Movies.Controllers
         [HttpPost]
         public IActionResult Create(string title, string description, string posterUrl, int year, string genre, double rating)
         {
+            // Створення нового фільму
             var movie = new Movie
             {
                 Title = title,
