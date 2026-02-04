@@ -12,7 +12,7 @@ namespace Movies.Models
         public string? Genre { get; set; }
         public double? Rating { get; set; }
         public MediaType Type { get; set; }
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime CreatedAt { get; set; }
 
         public ICollection<UserMovie> UserMovies { get; set; } = new List<UserMovie>();
     }

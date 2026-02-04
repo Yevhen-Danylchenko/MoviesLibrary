@@ -46,7 +46,8 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
                 Genre = "Драма",
                 Rating = 9.3,
                 Type = MediaType.Movie,
-                Description = "Історія банкіра Енді Дюфрейна, засудженого до довічного ув'язнення."
+                Description = "Історія банкіра Енді Дюфрейна, засудженого до довічного ув'язнення.",
+                CreatedAt = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc)
             },
             new Movie
             {
@@ -56,7 +57,8 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
                 Genre = "Кримінал, Драма",
                 Rating = 9.2,
                 Type = MediaType.Movie,
-                Description = "Сага про могутню італо-американську кримінальну сім'ю."
+                Description = "Сага про могутню італо-американську кримінальну сім'ю.",
+                CreatedAt = new DateTime(2024, 1, 2, 0, 0, 0, DateTimeKind.Utc)
             },
             new Movie
             {
@@ -66,7 +68,8 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
                 Genre = "Кримінал, Драма, Трилер",
                 Rating = 9.5,
                 Type = MediaType.Series,
-                Description = "Вчитель хімії стає виробником метамфетаміну."
+                Description = "Вчитель хімії стає виробником метамфетаміну.",
+                CreatedAt = new DateTime(2024, 1, 3, 0, 0, 0, DateTimeKind.Utc)
             },
             new Movie
             {
@@ -76,7 +79,8 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
                 Genre = "Фентезі, Драма",
                 Rating = 9.3,
                 Type = MediaType.Series,
-                Description = "Епічна сага про боротьбу за Залізний трон."
+                Description = "Епічна сага про боротьбу за Залізний трон.",
+                CreatedAt = new DateTime(2024, 1, 4, 0, 0, 0, DateTimeKind.Utc)
             },
             new Movie
             {
@@ -86,7 +90,8 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
                 Genre = "Наукова фантастика, Драма",
                 Rating = 8.7,
                 Type = MediaType.Movie,
-                Description = "Команда дослідників подорожує крізь червоточину в космосі."
+                Description = "Команда дослідників подорожує крізь червоточину в космосі.",
+                CreatedAt = new DateTime(2024, 1, 5, 0, 0, 0, DateTimeKind.Utc)
             }
         );
     }

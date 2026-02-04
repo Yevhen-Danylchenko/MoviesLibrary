@@ -15,7 +15,7 @@
 
         public string? Notes { get; set; }
 
-        public DateTime AddedAt { get; set; } = DateTime.UtcNow;
+        public DateTime AddedAt { get; set; }
 
         public DateTime? WatchedAt { get; set; }
     }

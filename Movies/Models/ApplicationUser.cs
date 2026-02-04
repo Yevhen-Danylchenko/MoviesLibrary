@@ -6,7 +6,7 @@ namespace Movies.Models
     {
         public string? DisplayName { get; set; }
         public string? AvatarUrl { get; set; }
-        public DateTime RegisteredAt { get; set; } = DateTime.UtcNow;
+        public DateTime RegisteredAt { get; set; } 
 
         public ICollection<UserMovie> UserMovies { get; set; } = new List<UserMovie>();
     }

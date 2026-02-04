@@ -54,7 +54,7 @@ namespace Movies
 
             app.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Admin}/{action=Login}/{id?}");
 
 
             app.Run();
